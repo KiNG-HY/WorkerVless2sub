@@ -645,7 +645,7 @@ export default {
 				if(proxyhosts && (host.includes('.workers.dev') || host.includes('pages.dev'))) {
 					最终路径 = `/${host}${path}`;
 					伪装域名 = proxyhosts[Math.floor(Math.random() * proxyhosts.length)];
-					节点备注 = `${EndPS} KiNG`;
+					节点备注 = `${EndPS} `;
 					sni = 伪装域名;
 				}
 
