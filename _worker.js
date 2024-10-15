@@ -5,8 +5,8 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
-	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	'icook.tw:2053#KiNG优选域名',
+	'cloudflare.cfgo.cc#KiNG优选线路',
 ];
 
 // 设置优选地址api接口
@@ -23,6 +23,7 @@ let addressesnotls = [
 // 设置优选noTLS地址api接口
 let addressesnotlsapi = [
 	'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/addressesapi.txt', //可参考内容格式 自行搭建。
+	'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
 ];
 
 let DLS = 8;//速度下限
@@ -52,7 +53,7 @@ let proxyhosts = [//本地代理域名池
 let proxyhostsURL = 'https://raw.githubusercontent.com/cmliu/CFcdnVmess2sub/main/proxyhosts';//在线代理域名池URL
 let EndPS = '';//节点名备注内容
 let 协议类型 = 'VLESS';
-let FileName = 'WorkerVless2sub';
+let FileName = 'KiNG-QQ:3148213528';
 let SUBUpdateTime = 6; 
 let total = 99;//PB
 //let timestamp = now;
