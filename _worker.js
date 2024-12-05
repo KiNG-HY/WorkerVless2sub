@@ -32,13 +32,7 @@ let addressescsv = [
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅转换配置文件
 let noTLS = 'true'; //改为 true , 将不做域名判断 始终返回noTLS节点
-let link = [
-	'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYzkzZDFjYy0zMWExLTRkNDUtOWY1NS0xNmQ0YjM3NTY1YWE%3D@zhuanxian168.top:55859#%E9%A6%99%E6%B8%AF1-%E4%B8%93%E7%BA%BF-KiNG%E7%89%B9%E4%BE%9B',
-	'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYzkzZDFjYy0zMWExLTRkNDUtOWY1NS0xNmQ0YjM3NTY1YWE%3D@zhuanxian168.top:55860#%E9%A6%99%E6%B8%AF2-%E4%B8%93%E7%BA%BF-KiNG%E7%89%B9%E4%BE%9B',
-	'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYzkzZDFjYy0zMWExLTRkNDUtOWY1NS0xNmQ0YjM3NTY1YWE%3D@zhuanxian168.top:22913#%E9%A6%99%E6%B8%AF3-%E4%B8%93%E7%BA%BF-KiNG%E7%89%B9%E4%BE%9B',
-	'ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmYzkzZDFjYy0zMWExLTRkNDUtOWY1NS0xNmQ0YjM3NTY1YWE%3D@zhuanxian168.top:55861#%E5%8F%B0%E6%B9%BE1-%E4%B8%93%E7%BA%BF-KiNG%E7%89%B9%E4%BE%9B'
-];
-
+let link;
 let edgetunnel = 'ed';
 let RproxyIP = 'true';
 let proxyIPs = [//无法匹配到节点名就随机分配以下ProxyIP域名
